@@ -1,0 +1,45 @@
+body {
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+    margin: 0 16px;
+}
+
+.wd-wrapper {
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    overflow: hidden;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.wd-author {
+    color: white;
+    font-weight: bold;
+}
+
+.wd-blue {
+    color: rgb(29, 161, 242);
+}
+
+.wd-light-gray {
+    color: rgb(110, 118, 125);
+}
+
+.wd-red {
+    color: crimson;
+}

@@ -4,50 +4,54 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="index.css" rel="stylesheet"/>
+    <link href="../../tuiter/styles.css" type="text/css" rel="stylesheet"/>
 </head>
 
 <body>
-    <div>
+    <div class="wd-wrapper">
 
-<!--        Section A: Input field-->
+<!-- Search Field-->
 
         <div class="wd-search-wrapper">
             <div class="wd-search-bar">
                 <input placeholder=" &#128269   Search Tuiter" class="wd-input-field"/>
             </div>
             <div class="wd-gear">
-                <a href="explore-settings.html" class = "wd-gear-style">&#x2699;</a>
+                <a href="explore-settings.html" class="wd-gear-style wd-blue">&#x2699;</a>
             </div>
         </div>
 
-<!--        Section B: Navigation-->
+<!--Navigation Tabs-->
 
-        <ul class="wd-nav-tabs">
-            <li class="wd-selected"><span>For you</span></li>
-            <li class="wd-unselected"><span>Trending</span></li>
-            <li class="wd-unselected"><span>COVID-19</span></li>
-            <li class="wd-unselected"><span>News</span></li>
-            <li class="wd-unselected"><span>Sports</span></li>
-            <li class="wd-unselected"><span>Entertainment</span></li>
+        <ul class="wd-nav-wrapper">
+            <li class="wd-selected wd-blue"><span>For you</span></li
+            ><li class="wd-light-gray"><span>Trending</span></li
+            ><li class="wd-light-gray"><span>COVID-19</span></li
+            ><li class="wd-light-gray"><span>News</span></li
+            ><li class="wd-light-gray"><span>Sports</span></li
+            ><li class="wd-light-gray"><span>Entertainment</span></li>
         </ul>
 
-
+<!--Divider-->
         <hr class="wd-divider">
 
-<!--        Sections C, D, E: Tweets-->
+<!--Sample Tweet Stories (contains at least 2 examples of each C, D and E)-->
 
+        <!--Type C-->
         <div class="wd-tweet">
             <h3>Trending in Science</h3>
             <h1>Starship</h1>
             <h3>55.5K Tweets</h3>
         </div>
 
+        <!--Type C-->
         <div class="wd-tweet">
             <h3>Sports • Trending</h3>
             <h1>Joe Rogan</h1>
             <h3>5218 Tweets</h3>
         </div>
 
+        <!--Type D-->
         <div class="wd-tweet">
             <div class="wd-tweet-text">
                 <h3><span class="wd-author">The New York Times</span> • Yesterday</h3>
@@ -56,6 +60,7 @@
             <div class="wd-image-container"><img src="cnn.png" class="wd-image"/></div>
         </div>
 
+        <!--Type E-->
         <div class="wd-tweet">
             <div class="wd-tweet-text">
                 <h3>COVID-19 • LIVE</h3>
@@ -64,6 +69,7 @@
             <div class="wd-image-container"><img src="covid19.png" class="wd-image"/></div>
         </div>
 
+        <!--Type D-->
         <div class="wd-tweet">
             <div class="wd-tweet-text">
                 <h3><span class="wd-author">Bloomberg Opinion</span> • Yesterday</h3>
@@ -72,12 +78,23 @@
             <div class="wd-image-container"><img src="boosters.png" class="wd-image"/></div>
         </div>
 
+        <!--Type C-->
         <div class="wd-tweet">
             <h3>Trending in United States</h3>
             <h1>Wonder Bread</h1>
             <h3>1,259 Tweets</h3>
         </div>
 
+        <!--Type E-->
+        <div class="wd-tweet">
+            <div class="wd-tweet-text">
+                <h3>LOREM IPSUM • LIVE</h3>
+                <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+            </div>
+            <div class="wd-image-container"><img src="LoremIpsum.png" class="wd-image"/></div>
+        </div>
+
     </div>
+
 </body>
 </html>
