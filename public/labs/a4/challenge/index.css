@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+/* BODY STYLING */
+body {
+    background-color: black;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/* COMMONLY USED COLORS */
+.wd-dark-gray {
+    background-color: #202327;
+}
+
+/* LIST GROUP STYLING */
+.list-group-item {
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.list-group-item:hover {
+    background-color: #16181C;
+    transition: all .2s ease;
+}
+
+.list-group-item.active {
+    background-color: black;
+    font-weight: bolder;
+}
+
+.wd-no-hover {
+    pointer-events: none;
+}
+
+/* BUTTON STYLING */
+.btn {
+    border: none;
+    outline: none;
+}
+
+/* ANCHOR STYLING */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+/* LEFT SIDEBAR STYLING */
+/* Adds vertical spacing to list group items */
+.wd-sidebar-wrapper .list-group-item {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Aligns the text portion of each list group item */
+.wd-sidebar-wrapper .list-group-item span{
+    font-size: 20px;
+    position: absolute;
+    left: 55px;
+    bottom: 5px;
+}
+
+.wd-sidebar-wrapper .list-group-item:hover {
+    border-radius: 40px;
+}
+
+/* MAIN CONTENT STYLING */
+/* Search bar styling */
+.wd-search-icon {
+    bottom: 12px;
+    left: 30px;
+}
+
+.form-control {
+    border-color: inherit;
+    box-shadow: none;
+    outline: none;
+}
+
+.wd-main-wrapper {
+    border-left: 1px solid #202327;
+    border-right: 1px solid #202327;
+}
+
+/* Tweet image styling */
+.img-thumbnail {
+    border: none;
+    border-radius: 15px;
+    padding: 0;
+    min-height: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+/* Nav Pill Styling */
+.nav .nav-pills {
+    margin: 0;
+}
+
+.nav-pills .nav-link{
+    color: rgb(110, 118, 125);
+}
+
+.nav-pills .nav-link.active {
+    background-color: black;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active span{
+    border-bottom: solid 4px rgb(29,161,242);
+    padding-bottom: 14px;
+}
+
+.nav-pills .nav-link.active:hover {
+    background-color: black;
+}
+
+.nav-pills .nav-link:hover{
+    background-color: #202327;
+}
+
+/* RIGHT SIDEBAR STYLING */
+/* Keeps a fixed size for user avatars*/
+.wd-avatar {
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+}
+
+/* Wraps the "Who to follow" section and gives it a border*/
+.wd-follow-wrapper {
+    border-radius: 10px;
+}
+
+/* Adds space + colors users in right sidebar */
+.wd-follow-wrapper .list-group-item {
+    padding-bottom: 15px;
+    background-color: #16181C;
+}
+
+/* Forces right sidebar hover color again*/
+.wd-follow-wrapper .list-group-item:hover {
+    background-color: #202327;
+}
+
+/* Sizes the "Who To Follow" text */
+.wd-large-font {
+    font-size: 20px;
+    font-kerning: auto;
+}
