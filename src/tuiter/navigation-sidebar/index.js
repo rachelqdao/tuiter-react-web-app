@@ -25,6 +25,7 @@ const NavigationSidebar = () => {
                 Explore
             </Link>
             <Link to="/" className="list-group-item">
+                <i className="bi bi-journal"> </i>
                 Labs
             </Link>
             <a className={`list-group-item
