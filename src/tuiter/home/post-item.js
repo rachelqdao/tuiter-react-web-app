@@ -32,8 +32,8 @@ const PostItem = (
                         {post.userName + ' '}
                         <i className="bi bi-patch-check-fill text-primary"> </i>
                     </span>
-                    @{post.handle} • {post.time}
-                    <a href="#"><i className="bi bi-three-dots float-end"></i></a>
+                    <span className="text-secondary">@{post.handle} • {post.time}</span>
+                    <a href="#"><i className="bi bi-three-dots float-end text-secondary"></i></a>
                     <p>{post.text}</p>
 
                     {`${post.image}` !== "undefined" ?
@@ -42,7 +42,7 @@ const PostItem = (
                                 (`${post.linkText}` !== "undefined") &&
                                 (`${post.link}` !== "undefined")) ?
                                 <div className="p-3">
-                                    <span className="text-secondary">{post.linkTitle}</span><br/>
+                                    <span>{post.linkTitle}</span><br/>
                                     <span className="text-secondary">{post.linkText}</span><br/>
                                     <span className="text-secondary"><i className="bi bi-link-45deg"></i> {post.link}</span></div>: null
                             }
