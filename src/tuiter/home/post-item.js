@@ -50,23 +50,23 @@ const PostItem = (
                     }
 
                     <ul className="list-inline d-flex link-secondary mt-3">
-                        <li className="list-inline-item flex-fill">
-                            <a href="#">
+                        <li className="list-inline-item flex-fill text-secondary">
+                            <a href="#" className="text-secondary">
                                 <i className="bi bi-chat"></i> {post.replies}
                             </a>
                         </li>
                         <li className="list-inline-item flex-fill">
-                            <a href="#">
+                            <a href="#" className="text-secondary">
                                 <i className="bi bi-arrow-left-right"></i> {post.retweets}
                             </a>
                         </li>
                         <li className="list-inline-item flex-fill">
-                            <a href="#">
+                            <a href="#" className="text-secondary">
                                 <i className="bi bi-heart pe-2"></i> {post.likes}
                             </a>
                         </li>
                         <li className="list-inline-item flex-fill">
-                            <a href="#">
+                            <a href="#" className="text-secondary">
                                 <i className="bi bi-upload pe-2"></i>
                             </a>
                         </li>
