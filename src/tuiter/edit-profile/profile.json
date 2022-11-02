@@ -1,0 +1,16 @@
+[
+  {
+    "_id": 123,
+    "name": "Jose Annunziato",
+    "handle": "@jannunzi",
+    "profilePicture": "nasa.png",
+    "bannerPicture": "starship.jpg",
+    "bio": "Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements.",
+    "website": "youtube.com/webdevtv",
+    "location": "Boston, MA",
+    "birthday": "1968-07-07",
+    "dateJoined": "4/2009",
+    "followingCount": 340,
+    "followersCount": 223
+  }
+]
