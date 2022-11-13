@@ -7,6 +7,9 @@ const NavigationSidebar = () => {
     const paths = pathname.split('/')
     const active = paths[2];
 
+    console.log(paths)
+    console.log(paths[2])
+
     return (
         <div className="list-group">
 
@@ -14,14 +17,16 @@ const NavigationSidebar = () => {
                 <i className="bi bi-twitter"> </i>
                 <span className="d-none d-xl-inline-block">Tuiter</span>
             </a>
-
             <Link to="/tuiter/home" className={`list-group-item
                     ${active === 'home'?'active':''}`}>
                 <i className="bi bi-house"> </i>
                 <span className="d-none d-xl-inline-block">Home</span>
             </Link>
             <Link to="/tuiter/explore" className={`list-group-item
-                    ${active === 'explore'?'active':''}`}>
+                    ${active === 'explore'?'active':''} 
+                    ${active === undefined ? 'active':''}
+                    ${active === '' ? 'active':''}
+                    `}>
                 <i className="bi bi-hash"> </i>
                 <span className="d-none d-xl-inline-block">Explore</span>
             </Link>
